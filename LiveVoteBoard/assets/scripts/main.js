@@ -48,7 +48,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
             }
             document.getElementById('lastUpdateTime')
                 .innerText = new Date().toString();
-        }), 1000);
+        }), 5000);
         console.log(publishResult);
     });
 }))();
