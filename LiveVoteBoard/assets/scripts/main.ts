@@ -55,7 +55,7 @@
             }
             document.getElementById('lastUpdateTime')
                 .innerText = new Date().toString();
-        }, 1000);
+        }, 5000);
         console.log(publishResult);
     };
 })();
