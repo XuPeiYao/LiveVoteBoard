@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="assets\scripts\facebookSdkExtension.ts" />
+    <TypeScriptCompile Include="assets\scripts\main.ts" />
     <TypeScriptCompile Include="scripts\typings\facebook-js-sdk\facebook-js-sdk.d.ts" />
   </ItemGroup>
   <PropertyGroup>

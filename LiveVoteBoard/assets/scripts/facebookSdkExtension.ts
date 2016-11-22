@@ -64,11 +64,3 @@ async function FBAsyncFunc(func: Function, callbackPosition: CallbackPosition, .
         func.apply(FB, args);
     });
 }
-/*
-(async () => {
-    await loadFBSdkAndInit('1605904649711134');
-    await FBAsyncFunc(FB.login, CallbackPosition.First, { scope: 'user_posts,manage_pages' });
-    var data = await FBAsyncFunc(FB.api, CallbackPosition.Last, '/me/accounts');
-    console.log(data);
-})();
-*/

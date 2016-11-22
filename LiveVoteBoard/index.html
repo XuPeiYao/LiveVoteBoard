@@ -2,9 +2,24 @@
 <html lang="zh-tw">
 <head>
     <meta charset="utf-8" />
-    <title>TypeScript HTML App</title>
-
+    <title>Live Vote Board</title>
+    <script src="assets/scripts/facebookSdkExtension.js"></script>
 </head>
 <body>
+    <h1>Live Vote Board - 簡易的直播投票</h1>
+    <p>簡單的範例應該不用</p>
+    <button id="liveButton">建立Facebook直播</button>
+    <div id="content" hidden>
+        <ul>
+            <li><label>讚:</label><span id="like"></span></li>
+            <li><label>心:</label><span id="love"></span></li>
+            <li><label>哈:</label><span id="haha"></span></li>
+            <li><label>哇:</label><span id="wow"></span></li>
+            <li><label>嗚:</label><span id="sad"></span></li>
+            <li><label>怒:</label><span id="angry"></span></li>
+        </ul>
+        <p>最後更新時間: <span id="lastUpdateTime"></span></p>
+    </div>
+    <script src="assets/scripts/main.js"></script>
 </body>
 </html>

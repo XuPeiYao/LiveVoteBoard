@@ -79,12 +79,4 @@ function FBAsyncFunc(func, callbackPosition, ...args) {
         });
     });
 }
-/*
-(async () => {
-    await loadFBSdkAndInit('1605904649711134');
-    await FBAsyncFunc(FB.login, CallbackPosition.First, { scope: 'user_posts,manage_pages' });
-    var data = await FBAsyncFunc(FB.api, CallbackPosition.Last, '/me/accounts');
-    console.log(data);
-})();
-*/ 
 //# sourceMappingURL=facebookSdkExtension.js.map
