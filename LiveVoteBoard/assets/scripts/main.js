@@ -8,7 +8,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 (() => __awaiter(this, void 0, void 0, function* () {
     yield loadFBSdkAndInit('1605904649711134');
-    yield FBAsyncFunc(FB.login, CallbackPosition.First, { scope: 'user_posts, manage_pages' });
+    yield FBAsyncFunc(FB.login, CallbackPosition.First, {});
     document.getElementById('liveButton').onclick = () => __awaiter(this, void 0, void 0, function* () {
         var createResult = yield FBAsyncFunc(FB.ui, CallbackPosition.Last, {
             display: 'popup',

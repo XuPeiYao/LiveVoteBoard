@@ -1,6 +1,6 @@
 ﻿(async () => {
     await loadFBSdkAndInit('1605904649711134');
-    await FBAsyncFunc(FB.login, CallbackPosition.First, { scope: 'user_posts, manage_pages' });
+    await FBAsyncFunc(FB.login, CallbackPosition.First, {  });
     document.getElementById('liveButton').onclick = async () => {
         var createResult = await FBAsyncFunc(
             FB.ui,
