@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-tw">
 <head>
     <meta charset="utf-8" />
     <title>Live Vote Board</title>
     <script src="assets/scripts/facebookSdkExtension.js"></script>
+    <script src="assets/frameworks/echarts.min.js"></script>
 </head>
 <body>
-    <h1>Live Vote Board - 簡易的直播投票</h1>
-    <p>簡易的投票記分板</p>
+    <h2>Live Vote Board - 簡易的直播投票</h2>
     <button id="liveButton">建立Facebook直播</button>
     <div id="content" hidden>
         <ul>
@@ -19,6 +19,7 @@
             <li><label>怒:</label><span id="angry"></span></li>
         </ul>
         <p>最後更新時間: <span id="lastUpdateTime"></span></p>
+        <div id="chart" style="width: 600px;height:300px;"></div>
     </div>
     <script src="assets/scripts/main.js"></script>
 </body>
